@@ -24,6 +24,7 @@ body {
   margin-bottom: 0px;
 
 }
+
 .pacifico-regular2 {
   color: rgb(68, 66, 64);
   font-family: "Pacifico", cursive;
@@ -53,6 +54,14 @@ body {
 
 }
 
+.comfortta {
+  margin-top: 10px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  
+
+}
+
 .comfortto {
   color: aliceblue;
   margin-top: 30px;
@@ -62,6 +71,13 @@ body {
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
 
+}
+
+.prompt-extralight {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 10%;
 }
 
 h1 {
@@ -174,22 +190,84 @@ span {
   margin-inline-end: 40px;
 
 }
-.b9{
+
+.b9 {
   color: steelblue;
   font-size: 18px;
   margin-top: -10px;
   margin-left: 30px;
-  
+
 }
-.b10{
+
+.b10 {
   color: darkblue;
   font-size: 12px;
   margin-left: 500px;
   margin-top: 0px;
 }
-.b11{
+
+.b11 {
   color: darkblue;
   font-size: 12px;
   margin-left: 600px;
   margin-top: -10px;
+}
+
+nav {
+  display: inline-block;
+  background-color: #c7eefc;
+  padding: 10px;
+  margin-top: auto;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+nav a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #426eaf;
+  color: azure;
+}
+
+.top1{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #c7eefc;
+  margin-left: 10%;
+
+}
+
+footer{
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing:auto;
+  margin-top: 0px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: #426eaf;
 }
